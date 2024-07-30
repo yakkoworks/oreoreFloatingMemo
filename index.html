@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+	<script src="long-press-event.min.js"></script>
+    <script src="main.js"></script>
+    <title>oreoreFloatingMemo</title>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="area-memo">
+			<textarea name="memo" id="memo"></textarea>
+        </div>
+		<div id="area-bar">
+			<p class="bar" id="bar-insert">
+				<button class="btn-insert" onclick="insert('　')">[SP]</button>
+				<button class="btn-insert" onclick="insert('→')">→</button>
+				<button class="btn-insert" onclick="insert('：')">：</button>
+			</p>
+			<p class="bar" id="bar-commands">
+				<button></button>
+				<button></button>
+				<button></button>
+			</p>
+		</div>
+    </div> 
+</body>
+</html>
