@@ -1,13 +1,18 @@
 #wrapper{
-	height: 600px;
+	height: 350px;
 }
 #memo {
 	resize: none;
-    width: 100%;
+    width: 95%;
 	height: 100%;
 }
 #area-memo{
+	text-align: center;
 	height: 90%;
+}
+#area-bar{
+	width: 98%;
+    text-align: right;
 }
 button{
     width: 45px;
@@ -15,12 +20,7 @@ button{
 }
 .bar{
 	text-align: right;
-	margin: 20px 0;
-}
-#area-bar::after{
-	display: block;
-	content: '';
-	clear: both;
+	/* margin: 20px 0; */
 }
 body{
 	margin: 0;
