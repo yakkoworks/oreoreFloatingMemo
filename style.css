@@ -22,3 +22,6 @@ button{
 	content: '';
 	clear: both;
 }
+body{
+	margin: 0;
+}
